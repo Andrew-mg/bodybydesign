@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <link href="https://fonts.googleapis.com/css2?family=Glacial+Indifference&family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #E5DACE;
+            padding: 20px 40px;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px; 
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-family: 'Glacial Indifference';
+            font-size: 20px;
+        }
+
+        .search-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .search-container input {
+            padding: 5px;
+            margin-right: 5px;
+        }
+
+        .search-container button {
+            padding: 5px;
+        }
+
+        .logo {
+            margin-left: 20px; 
+        }
+
+        #logo {
+            height: 50px; 
+        }
+
+        .body-content {
+            display: flex;
+            margin: 40px;
+        }
+
+        .image-description {
+            flex: 1;
+            display: flex;
+            align-items: center;
+        }
+
+        .image-description img {
+            max-width: 100%;
+            height: auto;
+            margin-right: 20px;
+        }
+
+        .image-description p {
+            font-family: 'IBM Plex Serif', serif;
+            font-size: 18px;
+        }
+
+        .profiles {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        .profile img {
+            width: 100px; 
+            height: 100px;
+            border-radius: 50%; 
+        }
+
+        .profile p {
+            font-family: 'IBM Plex Serif', serif;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="nutrition.html"><b>NUTRITION</b></a>
+            <a href="programs.html"><b>PROGRAMS</b></a>
+            <a href="reality.html"><b>REALITY</b></a>
+            <a href="membership.html"><b>MEMBERSHIP</b></a>
+            <a href="contact.html"><b>CONTACT</b></a>
+        </nav>
+        <div class="search-container">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
+        <div class="logo">
+            <img src="body-bydesign.png" alt="Company Logo" id="logo">
+        </div>
+    </header>
+
+    <div class="body-content">
+        <div class="image-description">
+            <img src="your-image.jpg" alt="Description of the image">
+            <p>This is a description of the image to the left. It provides context and information related to the visual content.</p>
+        </div>
+    </div>
+
+    <div class="profiles">
+        <div class="profile">
+            <img src="founder1.jpg" alt="Founder 1">
+            <p>Founder 1 Name<br>Description of Founder 1, their role, and contributions.</p>
+        </div>
+        <div class="profile">
+            <img src="founder2.jpg" alt="Founder 2">
+            <p>Founder 2 Name<br>Description of Founder 2, their role, and contributions.</p>
+        </div>
+    </div>
+
+    <script>
+       
+    </script>
+</body>
+</html>

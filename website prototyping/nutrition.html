@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ibn+Plex+Serif&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Ibn Plex Serif', serif;
+            background-color: #3F3931; /* Updated background color */
+            color: white; /* Updated text color for better visibility */
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #E5DACE;
+            padding: 20px 40px;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px; 
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #3F3931; /* Updated link color for contrast */
+            font-size: 20px;
+        }
+
+        .search-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .search-container input {
+            padding: 5px;
+            margin-right: 5px;
+        }
+
+        .search-container button {
+            padding: 5px;
+        }
+
+        .logo {
+            margin-left: 20px; 
+        }
+
+        #logo {
+            height: 50px; 
+        }
+
+        .content {
+            display: flex;
+            padding: 40px;
+        }
+
+        .text-container {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        h2 {
+            font-family: 'Ibn Plex Serif', serif;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .image-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main-image {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+
+        .gallery img {
+            width: 30%;
+            height: auto;
+        }
+
+        .caption {
+            text-align: center;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="nutrition.html"><b>NUTRITION </b></a>
+            <a href="programs.html"><b>PROGRAMS</b></a>
+            <a href="reality.html"><b>REALITY</b></a>
+            <a href="membership.html"><b>MEMBERSHIP</b></a>
+            <a href="contact.html"><b>CONTACT</b></a>
+        </nav>
+        <div class="search-container">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
+        <div class="logo">
+            <img src="body-bydesign.png" alt="Company Logo" id="logo">
+        </div>
+    </header>
+    
+    <div class="content">
+        <div class="text-container">
+            <h2>NUTRITION</h2>
+            <p align="justify">Good protein sources include lean meats like chicken breast, legumes, and fish, which help build and repair tissues while supporting muscle health. Healthy carbohydrates can be found in whole grains, fruits, and vegetables, providing essential energy and fiber for digestion. Foods like quinoa, brown rice, and sweet potatoes are excellent examples of nutritious carbs. Good fats, such as those from avocados, nuts, and olive oil, support brain health, hormone production, and nutrient absorption. Including sources of omega-3 fatty acids, like salmon and flaxseeds, can further enhance heart health. Incorporating a balance of these nutrients promotes overall wellness, sustained energy levels, and optimal bodily functions.
+
+
+
+
+            </p>
+        </div>
+        <div class="image-container">
+            <img src="https://i.pinimg.com/564x/22/58/60/22586091cf2accbed3f699407da1c260.jpg" alt="Main Visual" class="main-image">
+        </div>
+    </div>
+
+    <div class="gallery">
+        <div>
+            <img src="image1.png" alt="Image 1">
+            <div class="caption">Caption for Image 1</div>
+        </div>
+        <div>
+            <img src="image2.png" alt="Image 2">
+            <div class="caption">Caption for Image 2</div>
+        </div>
+        <div>
+            <img src="image3.png" alt="Image 3">
+            <div class="caption">Caption for Image 3</div>
+        </div>
+    </div>
+</body>
+</html>
